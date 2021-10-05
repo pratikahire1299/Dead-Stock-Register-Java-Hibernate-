@@ -1,0 +1,134 @@
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Responsive sidebar template with sliding effect and dropdown menu based on bootstrap 3">
+    <link rel="stylesheet" href="//malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="Sidebar/assets/css/custom.css">
+    <link rel="stylesheet" href="Sidebar/assets/css/custom-themes.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"/>
+    <link rel="shortcut icon" type="image/png" href="Sidebar/assets/img/favicon.png" />
+    <style> 
+        li a:hover{
+           
+            border-left:8px solid #009999;
+            
+        } 
+    </style>
+    <div class="page-wrapper chiller-theme sidebar-bg bg1 toggled">
+        <a id="show-sidebar" class="btn btn-sm btn-dark" href="#">
+            <i class="fas fa-bars"></i>
+        </a>
+        <nav id="sidebar" class="sidebar-wrapper">
+            <div class="sidebar-content">
+                <div class="sidebar-brand">
+                    <a href="#">DEAD STOCK REGISTER</a>
+                    <div id="close-sidebar">
+                        <i class="fas fa-times"></i>
+                    </div>
+                </div>
+                <div class="sidebar-header">
+                    <div class="user-pic">
+                        <!--<img class="img-responsive img-rounded" src="Sidebar/assets/img/user.jpg" alt="User picture">-->
+                        <img class="img-responsive img-rounded" src="Images/Picture1pgk.jpg" alt="User picture">
+                    </div>
+                    <div class="user-info">
+                        <span class="user-name">
+                            <strong>P.G.Kochure</strong>
+                        </span>
+                        <span class="user-role">HOD(Store)</span>
+                        <span class="user-status">
+                            <i class="fa fa-circle"></i>
+                            <span>Active</span>
+                        </span>
+                    </div>
+                </div>
+                <!-- sidebar-header  -->
+                <div class="sidebar-menu">
+                    <ul>
+                        <li>
+                            <a href="Dashboard.jsp">
+                                <i class="fa fa-tachometer-alt"></i>
+                                <span>Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="header-menu">
+                            <span>Distribution of Inventory</span>
+                        </li>
+                        <li class="sidebar-dropdown">
+                            <a href="#"><i class="fa fa-check-circle"></i>Distribution of Dead Stock</a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li>
+                                        <a href="distrubution.jsp">Accept Dead Stock Inventory</a>
+                                    </li>
+                                    <li>
+                                        <a href="transferinventory.jsp">Transfer Dead Stock Inventory</a>
+                                    </li>
+                                    <li>
+                                        <a href="AllRemainingItem.jsp">All Remaining Item of Dead Stock</a>
+                                    </li>
+                                    <li>
+                                        <a href="DisplayAllCDSR.jsp">Display CDSR Register</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="sidebar-dropdown">
+                            <a href="#"><i class="fa fa-check-circle"></i>Distribution of Consumable</a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li>
+                                        <a href="ConsumeAcceptance_CDSR.jsp">Accept Consumable Inventory</a>
+                                    </li>
+                                    <li>
+                                        <a href="ConsumableDistribute.jsp">Transfer Consumable Inventory</a>
+                                    </li>
+                                    <li>
+                                        <a href="ConsumableAllRemainingItem.jsp">All Remaining Item of Consumable</a>
+                                    </li>
+                                    <li>
+                                        <a href="DisplayConsumeCDSR.jsp">Display Consumable CDSR Register</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header-menu">
+                            <span>Show Departmental Info.</span>
+                        </li>
+                        <li>
+                            <a href="filterdisp.jsp"><i class="fa fa-th-list"></i>Departmental Information</a>
+                        </li>
+                        <li class="header-menu">
+                            <span>Write Off Product</span>
+                        </li>
+                        <li class="sidebar-dropdown">
+                            <a href="#">Write Off Of Product</a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li>
+                                        <a href="writeoff.jsp">Write Off Product</a>
+                                    </li>
+                                    <li>
+                                        <a href="All_write_off_product.jsp">All Write Off Product List</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- sidebar-menu  -->
+            </div>
+            <!-- sidebar-content  -->
+            <div class="sidebar-footer text-center">
+                    <a href="Controller/logout.jsp" style="font-size:20px;color:white;">
+                   <i class="fa fa-sign-out-alt"></i>Logout
+                </a>
+            </div>   </nav> 
+    <script src="//malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="Sidebar/assets/js/custom.js"></script>
+    <link rel="stylesheet" href="Sidebar/CSS_for_bootstrap/bootstrap.min.css"/>
+    <script src="Sidebar/JS_for_bootstrap/jquery-2.2.4.min.js"></script>
+    <script src="Sidebar/JS_for_bootstrap/popper.min.js"></script>
+    <script src="Sidebar/JS_for_bootstrap/bootstrap.min.js"></script>
+    <!--<script src="Sidebar/assets/js/jquery.mCustomScrollbar.concat.min.js"></script>-->
